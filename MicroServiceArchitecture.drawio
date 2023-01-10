@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T11:21:06.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zjn8MaLV8yre7EXocIvm" version="20.8.3" type="github"><diagram id="coNlutR0dNUi-2ot5q4t" name="Page-1">3VZtb9MwEP41leDDUJuXbvvYNwZSkSpVgm1fJje5JQY3VxynSfn1nBsnTtIMCmwg8Sm+587n8z2P7Qzc2ba4kWwXf8AQxMAZhsXAnQ8cZzT0h/TRyKFEfO+6BCLJQxNkgTX/BtVMg2Y8hLQVqBCF4rs2GGCSQKBaGJMS83bYI4r2qjsWwQmwDpg4RT/xUMUlelVtS+PvgEdxtfJoaDxbVgUbII1ZiHkDchcDdyYRVTnaFjMQunlVX8p5b5/w1oVJSNQ5Ex6W7goDNdun97P99v7jZrzML0yWPROZ2fDAGQvKN31ESktVq4NpxfhrhpXjIj0SNaGAkbcjsqfWT6NIf2eC68pMOqqrzFg6TUvq5I7ELAlBlzoidx5zBesdC7Q3J2URFqutMG62SVFkCiYyMIo5otbyyEyVxC81aU696B6kguLJJo5qakjTgFtQ8kAhZkLNppGz4xo7t+KoJRA3hVGBzAgyqnNbzmhgaPsFCr0eCjvNhSSc6LNAViBYmvKg3U/b/CFZUHB1azx6fKfxN76x5kUjbH6ojIS2cts0GrO0aacdrWpeWSqEJ4ewQwhtBzMZwM+lrJiMQP0gzu8nuEGg38NfhUkQTPF9u9w+Ts0KK+THc2T041229eNed2RRbtPMap7mTiK/I0TX6yQq+3CS6Cixetu/r7rLU5ERiWtjolQxRpgwsbBoR2Y2Zom4M3r7DEodzClmmcK2Tq3KrLDuWrrqV5m+eZpXwzOqzj9TdeN+1Z0tpz+6IvyXu+Unq/fkvmEKcnaosm5k5X61RBZSwJQJlgQgX/9n74F3dcZ74P7V92B8QvacpwHSNnXda5A0+ift7j+Fz9p+z3/B55hM+7dW3qP2n9ddfAc=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-10T11:22:54.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Zjl6-0CFH1efcPc6fcdh" version="20.8.3" type="github">
+  <diagram id="coNlutR0dNUi-2ot5q4t" name="Page-1">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_L3PoctCvsZCvmZVb6Lw-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Client&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="220" y="230" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_L3PoctCvsZCvmZVb6Lw-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_L3PoctCvsZCvmZVb6Lw-1" target="_L3PoctCvsZCvmZVb6Lw-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="390" as="sourcePoint" />
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_L3PoctCvsZCvmZVb6Lw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="_L3PoctCvsZCvmZVb6Lw-5" target="_L3PoctCvsZCvmZVb6Lw-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_L3PoctCvsZCvmZVb6Lw-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;API Gateway&lt;br&gt;(Load Balancer)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="230" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_L3PoctCvsZCvmZVb6Lw-6" value="Discovery Server" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="495" y="450" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zdB63VuStM-wEihZcy6S-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Microservice 2&lt;br&gt;(Backend Service)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zdB63VuStM-wEihZcy6S-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Microservice 1 (Webapplication)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
